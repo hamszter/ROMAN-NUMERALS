@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:	-2px -2px 0 black,	0px -1px 0 orangered,-1px 1px 0 #000,	3px 3px 0 orangered;
+    background-image: linear-gradient(315deg, black 70%,rgb(129, 129, 129) 74%);
+    
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	padding: 10px;
+	height: 96vh;
+}
+h1{
+	font-size: 4rem;
+	color: gold;
+    font-weight: bold;
+    font-style: italic; 
+    margin-top: 50px;
+   
+}
+
+
+#arabicInput{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:0 2px green, 2px 0 greenyellow, 0 -2px green, -2px 0 greenyellow;
+    font-style: italic;
+    
+
+}
+#romanInput{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:0 2px violet, 2px 0 violet, 0 -2px purple, -2px 0 purple;
+    font-style: italic;
+}
+input{
+	outline: 1px;
+	width: 60vw;
+	margin: 10px 0;
+	height: 80px;
+	padding: 5px;
+	padding-left: 20px;
+	border-style: groove;
+	border-radius: 5px;
+	background: rgba(32, 32, 32, 0.4);
+	font-size: 3.5rem;
+	color: black;
+	text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    margin-top: 30px;
+ 
+
+}
+::placeholder{
+	color: black;
+}
+@media(max-width: 500px) {
+	body{
+		padding-top: 20px;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	input{
+		width: 90vw;
+		font-size: 2rem;
+	}
+}
